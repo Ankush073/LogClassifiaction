@@ -1,0 +1,49 @@
+# Data and Datasets
+data/
+# *.csv
+*.tsv
+*.txt
+*.json
+*.parquet
+*.npy
+*.npz
+*.env
+
+# Model Checkpoints and Weights
+checkpoints/
+models/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# Logs and Temporary Files
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and Dependencies
+.env/
+myvenv/
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and System Files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+.env
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+/myenv
